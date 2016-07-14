@@ -11,13 +11,7 @@ namespace SPR.Controllers
         bool loggedIn = false;
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult Login()
-        {
-            loggedIn = true;
-            return View();
+            return View(loggedIn);
         }
 
         public ActionResult About()

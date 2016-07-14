@@ -88,10 +88,7 @@ namespace SPR.Controllers
                 {
                     ModelState.AddModelError("", ErrorCodeToString(e.StatusCode));
                 }
-                catch (Exception e) 
-                {
-                    Debug.WriteLine(e.Message);
-                }
+                
             }
 
             // If we got this far, something failed, redisplay form
