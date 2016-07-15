@@ -121,7 +121,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 14:26:07</publishTime>
     </File>
     <File Include="bin/SPR.dll">
-      <publishTime>07/14/2016 16:33:58</publishTime>
+      <publishTime>07/14/2016 16:58:20</publishTime>
+    </File>
+    <File Include="bin/SPR.dll.config">
+      <publishTime>06/28/2016 14:26:04</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>06/28/2016 14:26:03</publishTime>
