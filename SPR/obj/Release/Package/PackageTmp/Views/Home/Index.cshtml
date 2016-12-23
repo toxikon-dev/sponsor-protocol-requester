@@ -1,6 +1,13 @@
-﻿@{
+﻿
+
+@{
     ViewBag.Title = "Home Page";
+    
 }
 
 
-
+@if ((bool)ViewData["LoggedIn"]) {
+    <h3>Hello, @WebMatrix.WebData.WebSecurity.CurrentUserName!</h3>
+}else {
+    <h3>Please Log in to view your requests.</h3>
+}

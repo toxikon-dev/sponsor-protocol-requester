@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Requests";
+}
+
+@model SPR.Models.Sponsor
+
+<h1 class="sponsor-title">Welcome, @Model.Name</h1>
+
+<div class="account">
+    <div class="sponsor-info">
+        <h2>Your Info</h2>
+        <div>
+            <p>
+                Address: @Model.getFullAddress()
+            </p>
+            <p>
+                Phone: @Model.Phone
+            </p>
+            <p>
+                Email: @Model.Email
+            </p>
+            <p>
+
+            </p>
+        </div>
+    
+    </div>
+
+    <div class="contacts">
+        <h2>Your Contacts</h2>
+        <table>
+            <tr>
+                <th>
+                    Contact Name
+                </th>
+                <th>
+                    Contact Phone
+                </th>
+                <th>
+                    Contact Email
+                </th>
+            </tr>
+
+            @foreach (SPR.Models.Contact contact in Model.Contacts)
+            {
+                <tr>
+                    <td>
+                        lame
+                    </td>
+                    <td>
+                        cool
+                    </td>
+                    <td>
+                        nice
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </div>
+
+
+    <div class="requests">
+        <h2>Requests</h2>
+
+        <table class="request-table sortable"  >
+            <tr>
+                <th>
+                    Request Number
+                </th>
+                <th>
+                    Request Name
+                </th>
+                <th>
+                    Requested By
+                </th>
+                <th>
+                    Date Requested
+                </th>
+                <th></th>
+            </tr>
+            @foreach (SPR.Models.Request request in Model.OpenRequests) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => request.RequestedBy)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => request.ID)
+                    </td>
+                    <td>
+                       @Html.DisplayFor(modelItem => request.DateRequested)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => request.Status)
+                    </td>
+                    <td
+                        >@Html.ActionLink("Details", "Details", new {id=request.ID}, null)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+<div class="request-buttons">
+    <button class="button">Request Form</button>
+    <button class="button">Custom Requests</button>
+</div>

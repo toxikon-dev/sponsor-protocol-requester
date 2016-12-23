@@ -525,6 +525,10 @@ input[type="checkbox"].input-validation-error {
 }
 
 
+
+
+
+
 /* tables
 ----------------------------------------------------------*/
 table {
@@ -539,6 +543,8 @@ th {
     text-align: left;
     border: none 0px;
     padding-left: 0;
+    width: 200px;
+    cursor: pointer;
 }
 
     th a {
@@ -578,7 +584,7 @@ th {
     }
 
 td {
-    padding: 0.25em 2em 0.25em 0em;
+    padding: 0.25em 2em 0.25em 1em;
     border: 0 none;
 }
 
@@ -587,6 +593,49 @@ tr.pager td {
 }
 
 
+/* custom tables & divs    SPONSOR REQUESTS
+    ------------------------------------------------------*/
+@font-face {
+    font-family: 'Infinity';
+    src: local('Infinity.ttf');
+}
+
+.account > div {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    background-color: white;
+    border-bottom: solid 2px #333;
+}
+.account th {
+    text-decoration: underline;
+}
+
+.sponsor-info {   
+}
+
+.contacts {
+}
+.contacts >table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.requests {
+}
+
+.request-table {
+    width: 100%;
+    border: solid 2px black;
+    
+}
+
+.request-buttons button {
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+
+}
 /********************
 *   Mobile Styles   *
 ********************/
@@ -603,6 +652,7 @@ tr.pager td {
     header .site-title {
         margin: 10px;
         text-align: center;
+       
     }
 
     /* login */

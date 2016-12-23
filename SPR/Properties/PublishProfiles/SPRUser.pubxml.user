@@ -9,11 +9,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>\\cts\c$\www\ToxSPR</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Data/aspnet-SPR-20160628142455.mdf">
+      <publishTime>07/25/2016 15:00:26</publishTime>
+    </File>
+    <File Include="App_Data/aspnet-SPR-20160628142455_log.ldf">
+      <publishTime>07/25/2016 15:00:26</publishTime>
+    </File>
     <File Include="App_Data/Database1.mdf">
-      <publishTime>06/28/2016 16:21:22</publishTime>
+      <publishTime>07/18/2016 08:49:57</publishTime>
     </File>
     <File Include="App_Data/Database1_log.ldf">
-      <publishTime>06/28/2016 16:21:22</publishTime>
+      <publishTime>07/18/2016 08:49:57</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>06/28/2016 14:26:13</publishTime>
@@ -121,10 +127,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 14:26:07</publishTime>
     </File>
     <File Include="bin/SPR.dll">
-      <publishTime>07/14/2016 16:58:20</publishTime>
+      <publishTime>08/05/2016 09:04:11</publishTime>
     </File>
     <File Include="bin/SPR.dll.config">
-      <publishTime>06/28/2016 14:26:04</publishTime>
+      <publishTime>07/18/2016 16:01:30</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>06/28/2016 14:26:03</publishTime>
@@ -189,11 +195,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/zh-Hant/System.Spatial.resources.dll">
       <publishTime>06/28/2016 14:26:08</publishTime>
     </File>
+    <File Include="Content/Fonts/Infinity.ttf">
+      <publishTime>03/16/2011 07:21:18</publishTime>
+    </File>
     <File Include="Content/Login.css">
       <publishTime>06/28/2016 16:45:37</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/14/2016 10:11:15</publishTime>
+      <publishTime>07/25/2016 14:25:24</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>06/28/2016 14:25:58</publishTime>
@@ -447,6 +456,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>06/28/2016 14:25:59</publishTime>
     </File>
+    <File Include="Scripts/sortable.js">
+      <publishTime>07/25/2016 11:10:05</publishTime>
+    </File>
     <File Include="Scripts/_references.js">
       <publishTime>06/28/2016 14:25:59</publishTime>
     </File>
@@ -457,7 +469,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 14:25:05</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>07/14/2016 09:30:59</publishTime>
+      <publishTime>07/22/2016 10:56:23</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
       <publishTime>06/28/2016 14:25:05</publishTime>
@@ -484,7 +496,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/14/2016 11:36:43</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/14/2016 11:30:06</publishTime>
+      <publishTime>07/25/2016 09:59:47</publishTime>
     </File>
     <File Include="Views/Home/MyRequests.cshtml">
       <publishTime>07/14/2016 11:34:09</publishTime>
@@ -493,19 +505,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/28/2016 14:25:05</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/14/2016 10:20:35</publishTime>
+      <publishTime>07/25/2016 11:12:30</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>06/28/2016 14:25:05</publishTime>
     </File>
+    <File Include="Views/Sponsor/AddRequest.cshtml">
+      <publishTime>07/22/2016 11:38:26</publishTime>
+    </File>
+    <File Include="Views/Sponsor/Details.cshtml">
+      <publishTime>07/25/2016 13:57:24</publishTime>
+    </File>
+    <File Include="Views/Sponsor/MyRequests.cshtml">
+      <publishTime>07/25/2016 14:53:35</publishTime>
+    </File>
+    <File Include="Views/Tox/Index.cshtml">
+      <publishTime>07/22/2016 10:51:44</publishTime>
+    </File>
     <File Include="Views/Web.config">
-      <publishTime>06/28/2016 14:25:05</publishTime>
+      <publishTime>07/18/2016 09:16:15</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>06/28/2016 14:25:05</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/14/2016 11:08:42</publishTime>
+      <publishTime>08/04/2016 15:04:58</publishTime>
     </File>
   </ItemGroup>
 </Project>
